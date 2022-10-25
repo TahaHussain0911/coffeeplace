@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Place</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- header section starts -->
+    <nav>
+        <div id="div" class="logo"><img src="img/logo-modified.png" alt=""></div>
+        <div id="div" class="middle">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div id="div" class="firsticon"><i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"><sub class="increment"></sub></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="searchbox">
+            <input type="search" id="search" placeholder="Search Here">
+            <label for="search" class="fa-solid fa-magnifying-glass"></label>
+        </div>
+        <div class="card-item-container" id="card-item-container">
+            <!-- <div class="card-item hidden">
+                <div class="content">
+                    <h3></h3>
+                    <div class="price"></div>
+                </div>
+                <span class="cross"><i></i></span>
+            </div> -->
+            <div class="hidden cart-empty">
+                <h2>Your cart is empty!</h2>
+                <div class="additem">Add Items To Your Cart</div>
+            </div>
+            <div class="totalamount">
+                <div>Total (<span class="amount">0</span> item)</div>
+                <div class="total-price">$<span class="dollar"></span></div>
+            </div>
+            <a class="btn" href="#menu">Order Now</a>
+
+        </div>
+        
+    </nav>
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h2>COFFEE IS ALWAYS A GOOD IDEA</h2>
+            <p>“I put instant coffee in a microwave oven and almost went back in time.”</p>
+            <p>—-Steven Wright
+            </p>
+            <!-- <button href="#" class="btn">Get it Now</button> -->
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- About us section starts -->
+
+    <section class="aboutus" id="about">
+        <h1 class="heading"><span>About</span> Us</h1>
+        <div class="row">
+            <div class="image">
+                <img src="/img/about-img.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h2>more about our coffee!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores tempore modi asperiores? Explicabo
+                    pariatur officiis inventore recusandae harum fugit beatae sint, dolorem laboriosam perspiciatis
+                    necessitatibus voluptatibus fugiat nostrum error eius.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, minus hic praesentium tempore
+                    rem voluptas laudantium numquam. At totam dolore enim consequuntur, illo similique atque ducimus
+                    praesentium cumque alias. Recusandae!</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About us section ends -->
+    <!-- Menu section starts -->
+    <section class="menu" id="menu">
+        <h1 class="heading">our <span>menu</span></h1>
+        <div class="row">
+            <div class="menuitem coffee">
+                <img src="/img/menu-1.png" alt="">
+                <h3>LATTE</h3>
+                <div>
+                    <p class="price">$12.99</p><span>17.99</span>
+                </div>
+                <button href="#" class="btn">Add To Cart</button>
+            </div>
+            <div class="menuitem coffee">
+                <img src="/img/menu-2.png" alt="">
+                <h3>AMERICANO</h3>
+                <div>
+                    <p class="price">$10.99</p><span>16.99</span>
+                </div>
+                <button href="#" class="btn">Add To Cart</button>
+            </div>
+            <div class="menuitem coffee">
+                <img src="/img/menu-3.png" alt="">
+                <h3>MACCHIATO</h3>
+                <div>
+                    <p class="price">$18.99</p><span>24.99</span>
+                </div>
+                <button href="#" class="btn">Add To Cart</button>
+            </div>
+            <div class="menuitem coffee">
+                <img src="/img/menu-4.png" alt="">
+                <h3>ESPRESSO</h3>
+                <div>
+                    <p class="price">$15.99</p><span>19.99</span>
+                </div>
+                <button href="#" class="btn">Add To Cart</button>
+            </div>
+            <div class="menuitem coffee">
+                <img src="/img/menu-5.png" alt="">
+                <h3>MOCHA</h3>
+                <div>
+                    <p class="price">$16.99</p><span>20.99</span>
+                </div>
+                <button href="#" class="btn">Add To Cart</button>
+            </div>
+            <div class="menuitem coffee">
+                <img src="/img/menu-6.png" alt="">
+                <h3>CAPPUCCINO</h3>
+                <div>
+                    <p class="price">$21.99</p><span>27.99</span>
+                </div>
+                <button href="#" class="btn">Add To Cart</button>
+            </div>
+
+        </div>
+    </section>
+    <!-- Menu section ends -->
+    <!-- Product section starts -->
+    <section class="products menu" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+        <div class="box row">
+            <div class="product menuitem">
+                <div class="icons">
+                    <button href="#" class="fa-solid fa-cart-shopping"></button>
+                    <button href="#" class="fa-solid fa-heart"></button>
+                    <button href="#" class="fa-solid fa-eye"></button>
+                </div>
+                <div class="image">
+                    <img src="/img/product-1.png" alt="">
+                </div>
+                <div class="bottom">
+                    <h3>Green unroasted</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div>
+                    <p class="price">$74.99 </p><span>83.99</span>
+                </div>
+
+            </div>
+            <div class="product menuitem">
+                <div class="icons ">
+                    <button href="#" class="fa-solid fa-cart-shopping"></button>
+                    <button href="#" class="fa-solid fa-heart"></button>
+                    <button href="#" class="fa-solid fa-eye"></button>
+                </div>
+                <div class="image">
+                    <img src="/img/product-2.png" alt="">
+                </div>
+                <div class="bottom">
+                    <h3>Columbia Gray</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div>
+                    <p class="price">$45.99 </p><span>52.99</span>
+                </div>
+
+            </div>
+            <div class="product menuitem">
+                <div class="icons">
+                    <button href="#" class="fa-solid fa-cart-shopping"></button>
+                    <button href="#" class="fa-solid fa-heart"></button>
+                    <button href="#" class="fa-solid fa-eye"></button>
+                </div>
+                <div class="image">
+                    <img src="/img/product-3.png" alt="">
+                </div>
+                <div class="bottom">
+                    <h3>Canary beans</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div>
+                    <p class="price">$52.99 </p><span>60.99</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Product section ends -->
+    <!-- Review section starts -->
+    <section class="review menu" id="review">
+        <h1 class="heading">customer <span>reviews</span></h1>
+        <div class="box-container row">
+            <div class="box menuitem">
+                <img src="/img/quote-img.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ipsum quae perferendis eius nostrum
+                    exercitationem atque, earum maxime ex optio voluptatem, aperiam fugit obcaecati, quos sed quidem
+                    accusamus similique rerum.</p>
+                <img src="/img/pic-1.png" alt="" class="image">
+                <div class="bottom">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <h3>Muhammad Noor</h3>
+
+                </div>
+            </div>
+            <div class="box menuitem">
+                <img src="/img/quote-img.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ipsum quae perferendis eius nostrum
+                    exercitationem atque, earum maxime ex optio voluptatem, aperiam fugit obcaecati, quos sed quidem
+                    accusamus similique rerum.</p>
+                <img src="/img/pic-2.png" alt="" class="image">
+                <div class="bottom">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <h3>Fouz Ul abad</h3>
+
+                </div>
+            </div>
+            <div class="box menuitem">
+                <img src="/img/quote-img.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ipsum quae perferendis eius nostrum
+                    exercitationem atque, earum maxime ex optio voluptatem, aperiam fugit obcaecati, quos sed quidem
+                    accusamus similique rerum.</p>
+                <img src="/img/pic-3.png" alt="" class="image">
+                <div class="bottom">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <h3>Owais Ahsen</h3>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Review section ends -->
+    <!-- Contact section starts -->
+    <section class="contact menu" id="contact">
+        <h1 class="heading"><span>contact </span>us</h1>
+        <div class="contacts">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97365.67472071208!2d67.06440567814506!3d24.919341840764712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3394482f00745%3A0x9180cc57be67f4bb!2sCoffee%20Wagera%20-%20Maskan!5e0!3m2!1sen!2s!4v1659371919170!5m2!1sen!2s"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form action="">
+                <h3>Get in Touch</h3>
+                <div class="inputbox">
+                    <span class="fa-solid fa-user"></span>
+                    <input type="text" name="" placeholder="name" id="">
+                </div>
+                <div class="inputbox">
+                    <span class="fa-solid fa-envelope"></span>
+                    <input type="email" name="" placeholder="email" id="">
+                </div>
+                <div class="inputbox">
+                    <span class="fa-solid fa-phone"></span>
+                    <input type="number" name="" placeholder="number" id="">
+                </div>
+                <button type="submit" class="btn">Contact Now</button>
+            </form>
+        </div>
+    </section>
+    <!-- Contact section ends -->
+    <footer>
+        <div class="footer">
+            <!-- <div class="innerfooter"> -->
+            <div class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#review">Review</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <!-- </div> -->
+        </div>
+        <div class="copyright">Copyright &copy; Coffee Place Inc. 2021 All Rights Reserved</div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/838faa1f86.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

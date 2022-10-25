@@ -1,0 +1,209 @@
+@media (max-width:991px) {
+    html{
+        font-size: 55%;
+    }
+    
+}
+@media (max-width:1100px) and (min-width:760px) {
+    html{
+        font-size: 65%;
+    }
+    .home .content .btn{
+        margin: 0 auto;
+        width: 50%;
+        font-size: 17px;
+    }
+
+    .aboutus .row p{
+        font-size: 10px;
+        /* padding: 4px 0px; */
+    }
+    .aboutus .row .content h2{
+        font-size: 20px;
+    }
+    .aboutus .row .content .btn{
+        font-size: 10px;
+        height: 20px;
+        line-height: 17px;
+    }
+    .menu .row .menuitem .price{
+        font-size: 12px;
+    }
+    .menu .row .menuitem .price span{
+        font-size: 9px;
+    }
+    .icons a{
+        line-height: 20px;
+        font-size: 10px;
+    }
+}
+@media (max-width:768px) {
+    html{
+        font-size: 55%;
+    }
+    nav{
+        padding: 1.5rem 2rem;
+    }
+    nav ul{
+        position: absolute;
+        top: 100%;
+        right: -140%;
+        flex-direction: column;
+        height: calc(100vh - 9.5rem);
+        width: 80%;
+        background-color: white;
+    }
+    .firsticon .fa-bars{
+        display: inline-block;
+        /* visibility: hidden; */
+    }
+    nav ul a{
+        height: 40px;
+        /* width: 50%; */
+        display: block;
+        color: black;
+        font-size: 20px;
+        margin: 1.5rem;
+        padding: .5rem;
+    }
+    nav ul.active{
+        right: 0;
+    }
+    nav .searchbox{
+        width: 90%;
+        height: 7rem;
+
+    }
+    .card-item-container{
+        width: 50%;
+    }
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+    .home .content{
+        /* margin-top: 0px; */
+        justify-content: center;
+    }
+    .home .content h3{
+        /* text-align: center; */
+        font-size: 4rem;
+
+    }
+    .home .content p{
+        /* text-align: center; */
+        font-size: 0.8rem;
+        
+    }
+    .home .content .btn{
+        margin: 0 auto;
+        width: 50%;
+        font-size: 17px;
+    }
+    .aboutus .row{
+        flex-direction: column;
+    }
+    .aboutus .row img{
+        /* height: 200px; */
+        width: 100%;
+    }
+    .aboutus .row .btn{
+        height: 30px;
+        line-height: 26px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .aboutus .row .content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu .row .menuitem .price{
+        font-size: 12px;
+    }
+    .menu .row .menuitem .price{
+        font-size: 12px;
+    }
+    .menu .row .menuitem .price span{
+        font-size: 9px;
+    }
+    .icons a{
+        line-height: 17px;
+        font-size: 10px;
+    }
+    .blogs .box-container .box{
+        width: 48%;
+    }
+    .copyright{
+        font-size: 19px;
+    }
+    .footer ul a{
+        font-size: 18px;
+    }
+    .social-icons i{
+        font-size: 20px;
+    }
+}
+@media (max-width:600px){
+    .footer ul{
+        flex-direction: column;
+        column-gap: 1rem;
+        align-items: center;
+        margin-top: 5rem;
+    }
+    .footer ul a{
+        display: block;
+        margin: 7px 0px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer .social-icons{
+        flex-direction: row;
+    }
+    .footer .social-icons i{
+        margin: 10px 15px;
+    }
+    .copyright{
+        margin-top: 5rem;
+    }
+}
+@media (max-width:468px) {
+    html{
+        font-size: 90%;
+    }
+    .menu .row .menuitem{
+        width: 100%;
+    }
+    .icons a{
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .contact .contacts form{
+        width: 100%;
+    }
+    .contact .contacts .map{
+        width: 100%;
+    }
+    .blogs .box-container .box{
+        width: 100%;
+    }
+}
+@media (max-width:530px) and (min-width:470px) {
+    .menu .row .menuitem{
+        width: 48%;
+    }
+    .contact .contacts form{
+        width: 100%;
+    }
+    .contact .contacts .map{
+        width: 100%;
+    }
+    .blogs .box-container .box{
+        width: 48%;
+    }
+}
+
