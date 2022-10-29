@@ -592,47 +592,61 @@ sub {
 
 footer {
     background-color: var(--black);
+    padding: 4em;
 
 }
 
-.footer {
-    margin: 0 auto;
-    width: 80%;
-    /* background-color: green; */
+.footer{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-    height: 35vh;
+    margin: 0 auto;
+    width: 84%;
+    /* background: green; */
 }
-
-.footer ul {
+.footer .navbar{
+    margin-left: 4rem;
+    column-count: 2;
+    column-gap: 12rem;
+}
+.footer ul{
     list-style: none;
-    display: flex;
 }
-
-.footer ul a {
+.footer ul a{
+    color: white;
     text-decoration: none;
-    font-size: 22px;
-    color: var(--white);
-    margin: 20px;
+    font-size: 23px;
+    font-weight: lighter;
 }
+.footer ul li{
+    margin-bottom: 14px;
 
-.social-icons i {
+}
+.footer ul a:hover{
+    opacity: 0.6;
+}
+.footer .social-icons{
+    color: white;
+    margin-bottom: 3rem;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    column-gap: 3rem;
+}
+.social-icons i{
     font-size: 25px;
-    color: var(--white);
-    margin: 15px 0px;
     cursor: pointer;
+    /* margin-left: 4rem; */
 }
-
-.social-icons {
+/* .fa-instagram {
+    font-size: 29px;
+} */
+.footer .sub-footer{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
-
-.fa-instagram {
-    font-size: 29px;
-}
-
 .fa-instagram:hover {
     color: rgb(222, 27, 60);
 }
@@ -640,7 +654,9 @@ footer {
 .fa-facebook:hover {
     color: rgb(86, 86, 240);
 }
-
+.fa-twitter:hover{
+    color: rgb(151, 151, 244);
+}
 .fa-youtube:hover {
     color: red;
 }
@@ -648,13 +664,10 @@ footer {
 .copyright {
     color: white;
     text-align: center;
-    font-size: 23px;
-    padding-bottom: 4rem;
+    font-size: 22px;
+    /* padding-bottom: 4rem; */
 }
 
-hr {
-    color: red
-}
 
 .totalamount {
     font-size: 18px;
