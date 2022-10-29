@@ -84,8 +84,9 @@
 
     }
     .card-item-container{
-        width: 50%;
+        width: 70%;
     }
+
     .home{
         background-position: left;
         justify-content: center;
@@ -160,6 +161,16 @@
     }
 }
 @media (max-width:600px){
+    .card-item h3 {
+        font-size: 18px;
+    }
+    .price{
+        font-size: 14px;
+    }
+    .card-item-container .card-item img {
+        height: 60px;
+        width: 75px;
+    }
     .copyright{
         font-size: 19px;
     }
@@ -236,4 +247,24 @@
         width: 48%;
     }
 }
-
+@media (max-width:400px){
+    .card-item-container{
+        width: 77%;
+    }
+    .card-item h3 {
+        font-size: 14px;
+    }
+    .price{
+        font-size: 11px;
+    }
+    .card-item-container .card-item img {
+        height: 45px;
+        width: 60px;
+    }
+    .cross i{
+       font-size: 17px;
+    }
+    .totalamount{
+        font-size: 13px;
+    }
+}
