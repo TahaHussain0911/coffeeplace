@@ -41,7 +41,7 @@ nav {
     left: 0;
     right: 0;
     z-index: 1000;
-    border-bottom: var(--border);
+    /* border-bottom: var(--border); */
     padding: 5px 30px;
 }
 
@@ -101,7 +101,7 @@ nav ul li a:hover {
     height: 4rem;
     display: flex;
     align-items: center;
-    background-color: #fff;
+    background-color: #ecf6f6;
 
     transform: scaleY(0);
     transform-origin: top;
@@ -113,8 +113,10 @@ nav ul li a:hover {
     width: 100%;
     padding: 10px;
     font-size: 15px;
-    color: var(--bg);
+    color: var(--main-color);
     text-transform: none;
+    background-color: #ecf6f6;
+
 }
 
 .searchbox label {
@@ -135,7 +137,7 @@ nav ul li a:hover {
     right: -100%;
     height: calc(100vh - 7rem);
     width: 28rem;
-    background-color: #e8eded;
+    background-color: var(--silver);
     padding: 18px;
     overflow: auto;
 }
