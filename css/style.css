@@ -7,7 +7,7 @@
     --bg: #010103;
     --border: .1rem solid rgba(255, 255, 255, .3);
     --white: white;
-    --silver: #f7f8f8;
+    --silver: #e7e7e7;
 }
 
 * {
@@ -18,6 +18,9 @@
     transition: 0.2s linear;
     box-sizing: border-box;
     border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Lobster', cursive; */
+
 }
 
 html {
@@ -262,7 +265,6 @@ section {
     font-size: 1.5rem;
     opacity: 1;
     font-weight: 600;
-    /* font-family: 'Lobster', cursive; */
 }
 
 .home .content {
